@@ -1,0 +1,282 @@
+<Packages>
+    <ApplicationName>Qt</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Title>Qt</Title>
+        <Description>Qt</Description>
+        <Version>1.0.9</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.thirdparty,qt.license.lgpl</Dependencies>
+    </Package>
+    <Package>
+        <Name>qt.installer.changelog</Name>
+        <Title>Qt Installer Changelog</Title>
+        <Description></Description>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>1675</Size>
+        <AutoDependOn>qt</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.gplv3except</Name>
+        <Title>License GPL3-EXCEPT</Title>
+        <Description></Description>
+        <Version>1.0.0-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.lgpl</Name>
+        <Title>Qt License LGPL</Title>
+        <Description></Description>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.thirdparty</Name>
+        <Title>Qt 3rd Party Licenses</Title>
+        <Description></Description>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>104915</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Title>Developer and Designer Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <Version>1.0.8-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.cmake</Name>
+        <Title>CMake 3.16.0</Title>
+        <Description>CMake tools 3.16.0</Description>
+        <Version>3.16.0-201912051039</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>107230377</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.ifw.32</Name>
+        <Title>Qt Installer Framework 3.2</Title>
+        <Description>The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.</Description>
+        <Version>3.2.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>121068944</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.maintenance</Name>
+        <Title>Maintenance Tool</Title>
+        <Description>Maintenance Tool</Description>
+        <Version>3.2.2-0-202003121118</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>30953377</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.maintenance.icons</Name>
+        <Title>Maintenance Tool icons</Title>
+        <Description>Maintenance Tool icons</Description>
+        <Version>2.0.4</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>8031</Size>
+        <AutoDependOn>qt.tools.maintenance</AutoDependOn>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.ninja</Name>
+        <Title>Ninja 1.9.0</Title>
+        <Description>Ninja 1.9.0</Description>
+        <Version>1.9.0-202001281251</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>191600</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.openssl</Name>
+        <Title>OpenSSL 1.1.1d Toolkit</Title>
+        <Description>OpenSSL 1.1.1d Toolkit&lt;br>&lt;br>Due to import and export restrictions in some parts of the world, developers wishing to use SSL communication in their deployed applications should either ensure that their users have the appropriate libraries installed, or they should consult a suitably qualified legal professional to ensure that applications using code from the OpenSSL project are correctly certified for import and export in relevant regions of the world.</Description>
+        <Version>1.1.1-4</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.openssl.gcc_64</Name>
+        <Title>OpenSSL binaries</Title>
+        <Description>OpenSSL binaries.&lt;br>&lt;br>Due to import and export restrictions in some parts of the world, developers wishing to use SSL communication in their deployed applications should either ensure that their users have the appropriate libraries installed, or they should consult a suitably qualified legal professional to ensure that applications using code from the OpenSSL project are correctly certified for import and export in relevant regions of the world.&lt;br>&lt;br>Note: Qt installer doesn't set up OpenSSL environment. User needs to define the path and environment variables.</Description>
+        <Version>1.1.1-4</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>13158822</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.openssl.src</Name>
+        <Title>OpenSSL source code</Title>
+        <Description>OpenSSL source code.&lt;br>&lt;br>Due to import and export restrictions in some parts of the world, developers wishing to use SSL communication in their deployed applications should either ensure that their users have the appropriate libraries installed, or they should consult a suitably qualified legal professional to ensure that applications using code from the OpenSSL project are correctly certified for import and export in relevant regions of the world.&lt;br>&lt;br>Note: Qt installer doesn't set up OpenSSL environment. User needs to define the path and environment variables.</Description>
+        <Version>1.1.1-4</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>38734039</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudio</Name>
+        <Title>Qt 3D Studio 2.6.0</Title>
+        <Description>Qt 3D Studio is a world-class 3D user interface design tool which incorporates 2D and 3D graphics, as well as powerful interaction capabilities.</Description>
+        <Version>2.6.0-0-202001310709</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>649937065</Size>
+        <Dependencies>qt.license.gplv3except</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126</Name>
+        <Title>Qt 3D Studio OpenGL Runtime 2.6.0 for Qt 5.12.6</Title>
+        <Description>These options install the Qt 3D Studio OpenGL Runtime 2.6.0 inside Qt 5.12.6 installation only.&lt;br>&lt;br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  &lt;br>&lt;br>sha1: fe3ffda451732ebca0bdd7ecd19099f4cbfcfa75</Description>
+        <Version>2.6.0-0-202001310948</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>5598589</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126.android_arm64_v8a</Name>
+        <Title>Android ARM64-v8a</Title>
+        <Description>Qt 3D Studio OpenGL Runtime 2.6.0.&lt;br>&lt;br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.&lt;br>&lt;br>NOTE: This component requires Qt 5.12.6. Please make sure it has been installed.</Description>
+        <Version>2.6.0-0-202001310951</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>6239442</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126.android_armv7</Name>
+        <Title>Android ARMv7</Title>
+        <Description>Qt 3D Studio OpenGL Runtime 2.6.0.&lt;br>&lt;br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.&lt;br>&lt;br>NOTE: This component requires Qt 5.12.6. Please make sure it has been installed.</Description>
+        <Version>2.6.0-0-202001310951</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>5160221</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126.android_x86</Name>
+        <Title>Android x86</Title>
+        <Description>Qt 3D Studio OpenGL Runtime 2.6.0.&lt;br>&lt;br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.&lt;br>&lt;br>NOTE: This component requires Qt 5.12.6. Please make sure it has been installed.</Description>
+        <Version>2.6.0-0-202001310951</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>6223835</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126.debug_info.gcc_64</Name>
+        <Title>Desktop gcc 64-bit Debug Information Files</Title>
+        <Description>Qt 3D Studio OpenGL Runtime 2.6.0 Debug Information Files</Description>
+        <Version>2.6.0-0-202001310948</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>97939400</Size>
+        <Dependencies>qt.tools.qt3dstudioopenglruntime.5126.gcc_64</Dependencies>
+        <AutoDependOn>qt.tools.qt3dstudioopenglruntime.5126.gcc_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126.examples</Name>
+        <Title>Qt 3D Studio OpenGL Runtime 2.6.0 examples</Title>
+        <Description>Qt 3D Studio OpenGL Runtime 2.6.0 examples.</Description>
+        <Version>2.6.0-0-202001310948</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>3381786</Size>
+        <AutoDependOn>qt.tools.qt3dstudioopenglruntime.5126</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qt3dstudioopenglruntime.5126.gcc_64</Name>
+        <Title>GCC 64-bit</Title>
+        <Description>Qt 3D Studio OpenGL Runtime 2.6.0.&lt;br>&lt;br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.&lt;br>&lt;br>NOTE: This component requires Qt 5.12.6. Please make sure it has been installed.</Description>
+        <Version>2.6.0-0-202001310948</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>7007861</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Title>Qt Creator 4.11.1</Title>
+        <Description>IDE for Qt application development</Description>
+        <Version>4.11.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>691028954</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator.telemetry</Name>
+        <Title>Qt Telemetry plugin</Title>
+        <Description>Collects pseudonymous data from Qt Creator</Description>
+        <Version>4.11.1-0-202002060727</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>647008</Size>
+        <AutoDependOn>qt.tools.qtcreator</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreatordbg</Name>
+        <Title>Qt Creator 4.11.1 Debug Symbols</Title>
+        <Description>Additional symbol files required to debug Qt Creator</Description>
+        <Version>4.11.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>1861512896</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreatordev</Name>
+        <Title>Qt Creator 4.11.1 Plugin Development</Title>
+        <Description>Headers and libs required to develop additional plugins</Description>
+        <Version>4.11.1-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-03-21</InstallDate>
+        <Size>25657951</Size>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>
